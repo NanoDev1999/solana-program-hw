@@ -1,0 +1,18 @@
+[2024-02-04T13:08:15.593985200Z INFO  solana_test_validator] solana-validator 1.17.17 (src:27a43800; feat:1337574167, client:SolanaLabs)
+[2024-02-04T13:08:15.594185100Z INFO  solana_test_validator] Starting validator with: ArgsOs {
+        inner: [
+            "C:\\Users\\Nano\\.local\\share\\solana\\install\\active_release\\bin\\solana-test-validator.exe",
+        ],
+    }
+[2024-02-04T13:08:15.594596000Z WARN  solana_perf] CUDA is disabled
+[2024-02-04T13:08:15.594611800Z INFO  solana_perf] AVX detected
+[2024-02-04T13:08:15.594627700Z INFO  solana_perf] AVX2 detected
+[2024-02-04T13:08:15.610660300Z INFO  solana_faucet::faucet] Faucet started. Listening on: 0.0.0.0:9900
+[2024-02-04T13:08:15.610702000Z INFO  solana_faucet::faucet] Faucet account address: 48PnzYYrxGpN74qQ62rxG686ZtQi5p8HZTJfVeeDyzAd
+[2024-02-04T13:08:15.611694000Z INFO  solana_validator::admin_rpc_service] started admin rpc service!
+[2024-02-04T13:08:15.623512600Z INFO  solana_test_validator] Feature for 41tVp5qR1XwWRt5WifvtSQyuxtqQWJgEK8w91AtBqSwP deactivated
+[2024-02-04T13:08:15.654652700Z INFO  solana_ledger::blockstore] Opening database at "test-ledger\\rocksdb"
+[2024-02-04T13:08:15.656500900Z WARN  solana_ledger::blockstore_db] Unable to detect Rocks columns: Error { message: "IO error: No such file or directory: Failed to open NewSequentialFiletest-ledger\\rocksdb/CURRENT: The system cannot find the file specified.\r\n" }
+[2024-02-04T13:08:17.986761500Z INFO  solana_ledger::blockstore] "test-ledger\\rocksdb" open took 2.3s
+[2024-02-04T13:08:17.991602600Z INFO  solana_metrics::metrics] metrics disabled: environment variable not found
+[2024-02-04T13:08:17.991867200Z INFO  solana_metrics::metrics] datapoint: shred_insert_is_full total_time_ms=0i slot=0i last_index=3i num_repaired=0i num_recovered=0i
